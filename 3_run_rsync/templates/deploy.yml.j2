@@ -15,6 +15,7 @@ spec:
         app: {{ pod_name }}
         name: {{ pod_name }}
     spec:
+      imagePullPolicy: Always
       volumes:
       - name: {{ pvc_name }}
         persistentVolumeClaim:
