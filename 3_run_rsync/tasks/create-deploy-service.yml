@@ -1,5 +1,5 @@
 - debug:
-  msg: "{{ item }}"
+    msg: "{{ item }}"
 
 - name: create a deployment for rsync
   k8s:
